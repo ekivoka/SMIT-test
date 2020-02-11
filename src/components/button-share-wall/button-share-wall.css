@@ -1,0 +1,10 @@
+.button-share-wall{
+    width: 200px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Jura', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    border: 2px dashed white;
+}

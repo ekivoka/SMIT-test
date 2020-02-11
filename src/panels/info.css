@@ -1,0 +1,25 @@
+.info-panel-wrapper{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+
+.info-panel-wrapper>div{
+    flex-grow:1;
+    color:white;
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-panel-wrapper>*:last-child{
+    flex: 0;
+}

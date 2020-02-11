@@ -1,5 +1,5 @@
 import React from 'react';
-import Info from './panels/Info';
+import Info from './panels/info';
 
 class App extends React.Component {
     
