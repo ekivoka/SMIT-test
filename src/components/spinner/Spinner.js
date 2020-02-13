@@ -3,18 +3,11 @@ import './spinner.css'
 
 class Spinner extends React.Component {
 
-    constructor(props) {
-        super(props)
-        this.state={
-           
-        }
-    }
-
-
     render() {
 
         return (
            <div className="spinner-wrapper">
+               
                <div className = "spinner-cube"></div>
                <div className = "spinner-cube"></div>
                <div className = "spinner-cube"></div>
@@ -31,7 +24,6 @@ class Spinner extends React.Component {
                         </div>
                         <div className="spinner-eye-right">
                         <div className='spinner-eye-right-pupil'></div>
-
                         </div>
                         <div className="spinner-nose"></div>
                         <div className="spinner-mouth">
@@ -43,7 +35,5 @@ class Spinner extends React.Component {
         )
     }
 }
-
-
 
 export default Spinner

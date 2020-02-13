@@ -17,9 +17,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .info-panel-wrapper>*:last-child{
     flex: 0;
+}
+
+.info-panel-wrapper>div>p{
+    margin: 5px;
 }
